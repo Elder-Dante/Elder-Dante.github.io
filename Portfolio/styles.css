@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #4682B4;
+  color: #FFD700;
+  font-family: Tahoma, Georgia, serif;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 50vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #C0C0C0
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+.inline {
+  width: unset;
+}
+
+legend {
+  padding: 0.5rem 0;
+}
+
+.button {
+  background-color: #006400;
+  font-size: 25px;
+  font-family: Tahoma, Georgia, serif;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 24px;
+  width: 100%;
+}
